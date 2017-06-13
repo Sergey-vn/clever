@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300i,400,600,700');
+
+/* close */
+.close {
+  top: 15px;
+  right: 20px;
+  @include rectangle;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before, .close:after {
+  position: absolute;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #333;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+/*rectangle*/
+.rect {
+  top: 50px;
+  @include rectangle;
+
+}
+.rect:hover {
+  opacity: 1;
+}
+.rect:before, .rect:after {
+  position: absolute;
+  left: 30px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #333;
+}
+.rect:before {
+  margin-left: 9px;
+  transform: rotate(45deg);
+}
+.rect:after {
+  margin-left: -13px;
+  transform: rotate(-45deg);
+}
+
+
+
+/* animation */
+.animated {
+  transition: 1s;
+  transform: translateY(100px);
+  opacity: 0;
+}
+
+.animate .animated {
+  transform: translateY(0);
+  opacity: 1;
+}
