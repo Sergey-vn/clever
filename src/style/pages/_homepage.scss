@@ -2,10 +2,13 @@ header {
   background: url("../img/bg-top.jpg") center no-repeat;
   background-size: cover;
   padding-bottom: 10px;
+  box-sizing: border-box;
+  height: 100vh;
 
   .lay {
     background: rgba(0, 0, 0, 0.7);
     color: #fff;
+    height: 100%;
   }
     .top-button:first-child {
       @include button;
@@ -33,7 +36,9 @@ header {
       margin: 0 auto;
     }
     .htop {
-      position: relative;
+      position: absolute;
+      left:0;
+      right: 0;
       display: flex;
       justify-content: center;
       text-align: center;
@@ -195,7 +200,8 @@ header {
 
 .testimonial {
   padding: 120px 0 70px;
-  background: url("../img/block-3.jpg");
+  background: url("../img/block-3.jpg") center no-repeat;
+  background-size: cover;
 
 
   .quotes {
@@ -276,6 +282,110 @@ header {
     }
   }
 }
+
+
+
+
+
+$complete: #2B2B2B;
+$active: #262626;
+$mute: #E8E8E8;
+
+.progress {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  color: darken($mute, 100%);
+
+  > li {
+    position: relative;
+    display: table-cell;
+    text-align: center;
+    font-size: 0.9em;
+
+    &:before {
+      content: attr(data-step);
+      display: block;
+      margin: 0 auto;
+      color: $white;
+      background: $white;
+      border: 8px solid $mute;
+      width: 130px;
+      height: 130px;
+      font-size: 24px;
+      text-align: center; //IE8 doesn't inherit this style
+      margin-bottom: 4px;
+      border-radius: 100%;
+      position: relative;
+      z-index: 1000;
+    }
+    &:after {
+      content: '';
+      position: absolute;
+      display: block;
+      background: $mute;
+      width: 100%;
+      height: 0.5em;
+      top: 2.1em;
+      left: 50%;
+      margin-left: 1.5em\9;
+      z-index: -1;
+    }
+    &:last-child:after {
+      display: none;
+    }
+    &.is-complete {
+      color: $complete;
+
+      &:before{
+        font-size: 48px;
+        color: $active;
+      }
+      &:after {
+        color: $active;
+      }
+    }
+    &.is-active {
+      color: $complete;
+
+      &:before {
+        color: $active;
+        background: $white;
+        font-size: 48px;
+        border: 8px solid $mute;
+      }
+      &:after {
+        background: linear-gradient(to right, rgba(232,232,232,1) 0%,rgba(190,60,95,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$mute', endColorstr='#be3c5f',GradientType=1 );
+      }
+    }
+  }
+}
+/**
+ * Needed for IE8
+ */
+.progress__last:before {
+  /*background: #be3c5f;*/
+  border: none;
+  position: relative;
+  top: -33px;
+  margin-bottom: -27px;
+  z-index: 1000;
+}
+.progress__last:after {
+  display: none!important;
+}
+
+/**
+ * Size Extensions
+ */
+.progress--large {
+  font-size: 2em;
+}
+
 
 
 
