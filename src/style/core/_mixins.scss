@@ -18,6 +18,15 @@
   cursor: pointer;
 }
 
+@mixin button-2() {
+  @include button;
+  padding: 15px 40px 15px 40px;
+  color: #fff;
+  border: none;
+  background: $azure;
+  width: 150px;
+}
+
 // Rectangle
 @mixin rectangle() {
   width: 32px;

@@ -1,7 +1,6 @@
 header {
   background: url("../img/bg-top.jpg") center no-repeat;
   background-size: cover;
-  padding-bottom: 10px;
   box-sizing: border-box;
   height: 100vh;
 
@@ -316,7 +315,6 @@ $mute: #E8E8E8;
       width: 130px;
       height: 130px;
       font-size: 24px;
-      text-align: center; //IE8 doesn't inherit this style
       margin-bottom: 4px;
       border-radius: 100%;
       position: relative;
@@ -339,6 +337,7 @@ $mute: #E8E8E8;
     }
     &.is-complete {
       color: $complete;
+
 
       &:before{
         font-size: 48px;
@@ -364,6 +363,7 @@ $mute: #E8E8E8;
     }
   }
 }
+
 /**
  * Needed for IE8
  */
@@ -372,6 +372,7 @@ $mute: #E8E8E8;
   height: 146px;
   background: #be3c5f;
   border: none;
+  color: #000;
 }
 .progress__last:before {
   position: relative;
@@ -390,6 +391,11 @@ $mute: #E8E8E8;
   font-size: 2em;
 }
 
+
+.account {
+  background: url("../img/block-4.jpg") center no-repeat;
+  @include button-2;
+}
 
 
 
