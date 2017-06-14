@@ -367,9 +367,13 @@ $mute: #E8E8E8;
 /**
  * Needed for IE8
  */
-.progress__last:before {
-  /*background: #be3c5f;*/
+.progress__last:last-child:before {
+  width: 146px;
+  height: 146px;
+  background: #be3c5f;
   border: none;
+}
+.progress__last:before {
   position: relative;
   top: -33px;
   margin-bottom: -27px;
