@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a35c9177-5b04-4234-94bd-04ee9dbed99c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/bright.nl.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/main.css" afterPath="$PROJECT_DIR$/build/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/core/_mixins.scss" afterPath="$PROJECT_DIR$/src/style/core/_mixins.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/pages/_homepage.scss" afterPath="$PROJECT_DIR$/src/style/pages/_homepage.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +23,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="363">
-              <caret line="267" column="14" lean-forward="false" selection-start-line="267" selection-start-column="14" selection-end-line="267" selection-end-column="14" />
+              <caret line="267" column="27" lean-forward="false" selection-start-line="267" selection-start-column="27" selection-end-line="267" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -32,7 +32,7 @@
       <file leaf-file-name="_homepage.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/style/pages/_homepage.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
+            <state relative-caret-position="251">
               <caret line="423" column="21" lean-forward="false" selection-start-line="423" selection-start-column="21" selection-end-line="423" selection-end-column="21" />
               <folding />
             </state>
@@ -366,12 +366,12 @@
       <workItem from="1497356479347" duration="6543000" />
       <workItem from="1497441173918" duration="2433000" />
       <workItem from="1497447609587" duration="4431000" />
-      <workItem from="1497509332019" duration="8260000" />
+      <workItem from="1497509332019" duration="8568000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112431000" />
+    <option name="totallyTimeSpent" value="112739000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="361" y="54" width="1202" height="717" extended-state="0" />
@@ -773,14 +773,14 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
-          <caret line="267" column="14" lean-forward="false" selection-start-line="267" selection-start-column="14" selection-end-line="267" selection-end-column="14" />
+          <caret line="267" column="27" lean-forward="false" selection-start-line="267" selection-start-column="27" selection-end-line="267" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/style/pages/_homepage.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
+        <state relative-caret-position="251">
           <caret line="423" column="21" lean-forward="false" selection-start-line="423" selection-start-column="21" selection-end-line="423" selection-end-column="21" />
           <folding />
         </state>

@@ -422,6 +422,9 @@ $mute: #E8E8E8;
 .logo-block {
   display: inline-block;
   padding: 40px 30px;
+  > img {
+  margin-left: 50px;
+  }
 }
 
 
