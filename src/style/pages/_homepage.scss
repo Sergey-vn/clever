@@ -9,6 +9,7 @@ header {
     color: #fff;
     height: 100%;
   }
+
     .top-button:first-child {
       @include button;
       border-color: $azure;
@@ -394,7 +395,33 @@ $mute: #E8E8E8;
 
 .account {
   background: url("../img/block-4.jpg") center no-repeat;
-  @include button-2;
+  background-size: cover;
+  padding: 120px 0 70px;
+  height: 465px;
+  > h2 {
+    color: $white;
+    text-align: center;
+  }
+  .registration {
+    padding-top: 50px;
+  }
+  .mail {
+    @include reg;
+  }
+  .password {
+    @include reg;
+  }
+  .button-2 {
+    @include button-2;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+}
+
+.logo-block {
+  display: inline-block;
+  padding: 40px 30px;
 }
 
 

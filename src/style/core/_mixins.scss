@@ -27,6 +27,22 @@
   width: 150px;
 }
 
+//Regform
+@mixin reg() {
+  display: inline-block;
+  margin-left: 90px;
+  text-align: justify;
+  width: 250px;
+  border-bottom: 3px solid $white;
+  color: $white;
+  & p:first-child {
+    float: left;
+  }
+  & p:last-child {
+    float: right;
+  }
+}
+
 // Rectangle
 @mixin rectangle() {
   width: 32px;
