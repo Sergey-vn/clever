@@ -407,9 +407,11 @@ $mute: #E8E8E8;
   }
   .mail {
     @include reg;
+    @include input;
   }
   .password {
     @include reg;
+    @include input;
   }
   .button-2 {
     @include button-2;
@@ -440,6 +442,9 @@ $mute: #E8E8E8;
   > article {
     display: inline-block;
     margin-left: 100px;
+    &:nth-child(3){
+      margin-left: 70px;
+    }
   }
   h2 {
     color: #000;
@@ -474,6 +479,8 @@ $mute: #E8E8E8;
     float: right;
     & p {
       padding-top: 80px;
+      float: left;
+      margin-top: 0;
     }
   }
 }

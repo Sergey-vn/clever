@@ -42,6 +42,16 @@
     float: right;
   }
 }
+//Input
+@mixin input() {
+  & input {
+    background: none;
+    border: none;
+  }
+  ::-webkit-input-placeholder {
+    color: $white;
+  }
+}
 
 // Rectangle
 @mixin rectangle() {
