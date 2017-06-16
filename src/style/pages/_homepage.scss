@@ -427,6 +427,56 @@ $mute: #E8E8E8;
   }
 }
 
+.logo-ftr {
+  float: left;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.ftr {
+  background: #fff;
+  border-top: 1px solid $mute;
+  padding: 20px 20px;
+
+  > article {
+    display: inline-block;
+    margin-left: 100px;
+  }
+  h2 {
+    color: #000;
+    font-size: 1.325em;
+    margin: 0;
+  }
+  p {
+    font-size: 0.875em;
+    line-height: 1.5;
+
+    & a {
+      color: #000;
+      text-decoration: none;
+
+      &:hover {
+        color: #be3c5f;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .support {
+    float: left;
+    & a {
+      display: block;
+      margin-bottom: 5px;
+      text-decoration: none;
+    }
+  }
+  article:last-child {
+    display: inline-block;
+    float: right;
+    & p {
+      padding-top: 80px;
+    }
+  }
+}
 
 
 
