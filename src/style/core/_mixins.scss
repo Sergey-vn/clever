@@ -13,7 +13,7 @@
 
 // Button
 @mixin button() {
-  border-radius: 30px 0;
+  border-radius: 45px 0;
   border: 1px solid;
   cursor: pointer;
 }
@@ -24,7 +24,8 @@
   color: #fff;
   border: none;
   background: $azure;
-  width: 150px;
+  width: 306px;
+  font-size: 20px;
 }
 
 //Regform
@@ -50,6 +51,9 @@
   }
   ::-webkit-input-placeholder {
     color: $white;
+  }
+  ::-moz-placeholder {
+    color:$white;
   }
 }
 
