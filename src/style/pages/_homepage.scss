@@ -3,6 +3,7 @@ header {
   background-size: cover;
   box-sizing: border-box;
   height: 100vh;
+  font-family: $font-primary;
 
   .lay {
     background: rgba(0, 0, 0, 0.7);
@@ -51,7 +52,6 @@ header {
     }
 
   .h2-top {
-    font: $font-primary;
     font-size: 65px;
     line-height: 0.5;
   }
