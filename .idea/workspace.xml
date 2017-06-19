@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a35c9177-5b04-4234-94bd-04ee9dbed99c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/test.iml" afterPath="$PROJECT_DIR$/.idea/test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/main.css" afterPath="$PROJECT_DIR$/build/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/js/main.js" afterPath="$PROJECT_DIR$/build/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/core/_global.scss" afterPath="$PROJECT_DIR$/src/style/core/_global.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/core/_mixins.scss" afterPath="$PROJECT_DIR$/src/style/core/_mixins.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/core/_variables.scss" afterPath="$PROJECT_DIR$/src/style/core/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/pages/_homepage.scss" afterPath="$PROJECT_DIR$/src/style/pages/_homepage.scss" />
-    </list>
+    <list default="true" id="a35c9177-5b04-4234-94bd-04ee9dbed99c" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
